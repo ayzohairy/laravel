@@ -47,7 +47,7 @@ services:
         ports:
             - 8100:80
         volumes:
-            - ./src:/var/www
+            - ./:/var/www
             - ./nginx/conf:/etc/nginx/conf.d
         networks:
             - app-network
