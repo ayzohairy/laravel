@@ -15,7 +15,7 @@ services:
         tty: true
         working_dir: /var/www/
         volumes:
-                - ./src:/var/www
+                - ./:/var/www
         networks:
                 - app-network
 
